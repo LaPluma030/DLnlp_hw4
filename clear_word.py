@@ -2,7 +2,7 @@ import  os
 filePath  =  './jyxstxtqj_downcc.com '
 
 # file_inf  =  codecs.open(filePath  +  '/inf.txt',  "r",  encoding='gb23 12')
-filePath = r"jyxstxtqj_downcc.com/"  # 文件夹路径
+filePath = r"jyxstxtqj_downcc.com"  # 文件夹路径
 fileList = os.listdir(filePath)
 stop_punctuation=open('cn_punctuation.txt', encoding='utf-8')
 stop_punctuation_words = stop_punctuation.read().split("\n")
